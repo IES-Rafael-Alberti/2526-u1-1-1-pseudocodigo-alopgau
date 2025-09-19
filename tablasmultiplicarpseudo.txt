@@ -1,0 +1,19 @@
+Inicio
+numeroValido = false
+
+Mientras numeroValido == false
+	Escribe "Introduce un número y te daré su tabla de multiplicar del 1 al 10:"
+	Lee numero
+	
+	Si numero es un numero
+		numeroValido = true
+	Si no
+		numeroValido = false
+		Escribe "El dato introducido no es un número. Introduce un número."
+		
+Escribe "Has introducido el " + numero + ":"
+	
+Para i en (1,10) hacer
+	Escribe numero + "x" + "i: " + (numero*i) 
+	
+Fin

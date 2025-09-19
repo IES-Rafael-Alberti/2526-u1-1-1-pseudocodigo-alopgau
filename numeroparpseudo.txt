@@ -1,0 +1,17 @@
+Inicio
+numeroValido = false
+Mientras numeroValido == false hacer
+
+	Escribe "Introduce un número y te diré si es par o impar:"
+	Lee numero
+	Si numero es un numero entonces
+		numeroValido = true
+	Si no
+		numeroValido = false
+		Escribe "El dato introducido no es un número. Introduce un número."
+
+Si numero % 2 == 0
+	Escribe "El número " + numero " es par."
+Si numero % 2 != 0
+	Escribe "El número " + numero " es impar."
+Fin

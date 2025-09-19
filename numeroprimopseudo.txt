@@ -1,0 +1,27 @@
+Inicio
+numeroValido = false
+contadorDivExactas = 0
+Mientras numeroValido == false
+
+	Escribe "Introduce un número y te diré si es primo:"
+	Lee numero
+	
+	Si numero es un número y es >= 1
+		numeroValido = true
+	Si no
+		numeroValido = false
+		Escribe "El dato introducido no es un número. Introduce un número."
+		
+Para i en (1, numero)
+	restoDivision = numero % i // Almacena todos los restos del bucle
+	Si RestoDivision == 0 // Por cada resto exacto, suma 1 al contador
+		contadorDivExactas++
+		
+// Como un primo solo se podría dividir o bien por uno o bien por si mismo (2 divisiones):
+		Si contadorDivExactas > 2
+			Escribe "El número no es primo"
+		Si contadorDivExactas == 2
+			Escribe "El número es primo."
+		Si contadorDivExactas < 2
+			Escribe "El número es 1."
+Fin
