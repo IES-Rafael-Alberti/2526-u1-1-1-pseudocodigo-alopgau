@@ -1,0 +1,7 @@
+Inicio
+Escribe "Ingresa el precio de tu producto:"
+Lee precio_final
+Escribe "El precio sin iva es " + precio_final*0,9
+Escribe "El IVA pagado es " precio_final*0,1
+Fin 
+
