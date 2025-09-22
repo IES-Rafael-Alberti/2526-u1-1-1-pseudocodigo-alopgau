@@ -1,0 +1,8 @@
+Inicio
+Escribe "Introduce el precio del producto (sin IVA):"
+Lee precio_sin_iva
+Escribe "Introduce el porcentaje de IVA de tu producto:"
+Lee IVA
+IVA/100 // Asumiendo que el usuario pasase el % como un porcentaje (nº entero) y no directamente como un decimal
+Escribe "El precio final es " + (precio_sin_iva*IVA) + precio_sin_iva 
+Fin

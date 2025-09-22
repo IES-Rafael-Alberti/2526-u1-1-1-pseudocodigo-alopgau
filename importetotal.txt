@@ -1,0 +1,7 @@
+Inicio
+Escribe "Ingresa el número de horas:"
+Lee num_horas
+Escribe "Ingresa el coste por hora"
+Lee coste_horas
+Escribe "El servicio costará " + (num_horas*costehoras)
+Fin
