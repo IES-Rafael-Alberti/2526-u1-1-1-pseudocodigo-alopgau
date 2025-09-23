@@ -1,0 +1,7 @@
+// 112g payaso, 75g muñeca
+Escribe "Introduce el nº de payasos:"
+Lee payasos
+Escribe "Introduce el nº de muñecas:"
+Lee muñecas
+Escribe "El peso total es de " + (112*payasos)+(75*muñecas) + " gramos"
+Fin

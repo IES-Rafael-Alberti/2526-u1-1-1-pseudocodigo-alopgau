@@ -1,0 +1,2 @@
+operacion = (5**3)+((3*5)/5)-20
+Escribe "El resultado es " + operacion"

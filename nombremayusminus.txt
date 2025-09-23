@@ -1,0 +1,7 @@
+Inicio
+Escribe "Introduce tu nombre:"
+Lee nombre
+Escribe nombre // Asumo que hay una función .capitalize  o así para capitalizar
+Escribe nombre //  Asumo que hay una función .mayus o así para mayúscula
+Escribe nombre // Asumo que hay una función .minus o así para minúscula
+Fin

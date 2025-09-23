@@ -1,0 +1,15 @@
+Inicio
+Escribe "Introduce una frase:"
+Lee frase
+Escribe "Introduce la vocal a reemplazar:"
+Lee vocal
+
+// Asumo una función len que mida la longitud
+Lee len(frase)
+// Asumo una función subcadena
+Para i en (1,len(frase))
+	Si frase.subcadena(i,i) == vocal
+	 subcadena(i,i).mayus // Asumo .mayus para convertir en mayúscula
+// Asumo una funcion de reemplazo o de unir la subcadena.mayus con la frase
+Fin
+

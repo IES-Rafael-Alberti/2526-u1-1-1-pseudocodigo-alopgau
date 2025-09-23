@@ -1,7 +1,7 @@
-Inicio
-Escribe "Ingresa el precio de tu producto:"
+Inicio // Precio IVA = Precio no IVA x 1.1
+Escribe "Ingresa el precio de tu producto con IVA :"
 Lee precio_final
-Escribe "El precio sin iva es " + precio_final*0,9
-Escribe "El IVA pagado es " precio_final*0,1
+Escribe "El precio sin iva es precio_final/1.10 " 
+Escribe "El IVA pagado es " + (precio_final - precio_final/1,10)
 Fin 
 

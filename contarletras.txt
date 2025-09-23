@@ -1,0 +1,7 @@
+Inicio
+Escribe "Introduce tu nombre:"
+Lee nombre
+// Asumo uso de función .mayus o similar
+// Asumo uso de funcion len
+Escribe "Tu nombre en mayusculas es " + nombre.mayus "y tiene " len(nombre) + " letras"
+Fin

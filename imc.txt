@@ -1,0 +1,8 @@
+// Calculadora IMC
+Inicio
+Escribe "Introduce tu peso en kg:"
+Lee peso
+Escribe "Introduce tu altura en metros"
+Lee altura
+Escribe "Tu IMC es " + (peso/altura)
+Fin
