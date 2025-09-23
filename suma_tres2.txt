@@ -3,10 +3,10 @@ Escribe "Introduce el 1º número:"
 Lee num1
 Escribe "Introduce el 2º número:"
 Lee num2
+num1 = num1+num2
 
-Escribe "El resultado de la suma es " + (num1+num2+num1) // Es así o creando una variable resultado para acumular num1+num2 y después pides un 3º numero el cual asignas a alguna de las variables anteriores?? 
+Escribe "El resultado de la suma es " + (num1+num2) 
 Fin
-
 
 
 
