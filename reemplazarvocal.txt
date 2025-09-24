@@ -11,5 +11,5 @@ Para i en (1,len(frase))
 	Si frase.subcadena(i,i) == vocal
 	 subcadena(i,i).mayus // Asumo .mayus para convertir en mayúscula
 // Asumo una funcion de reemplazo o de unir la subcadena.mayus con la frase
-Fin
+Escribe frase_modificada
 

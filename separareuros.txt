@@ -1,0 +1,13 @@
+Inicio
+Escribe "Introduce un precio (formato euros,centimos):"
+Lee precio
+// Asumo función len
+// Asumo función subcadena
+Para i en (1,len(precio))
+	caracter = subcadena(i,i)
+	Si caracter == ","
+		euros = subcadena(1,i)
+		centimos = subcadena(i,len(precio))
+Escribe "Euros: " + euros
+Escribe: "Céntimos:" + centimos
+Fin
