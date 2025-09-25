@@ -1,0 +1,8 @@
+Inicio
+Escribe "Introduce lista de productos (entre comas):"
+Lee lista
+Asumiendo que lista es un array
+Para producto en lista
+	Escribe producto
+Fin
+
