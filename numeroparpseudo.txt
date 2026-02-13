@@ -1,0 +1,15 @@
+Inicio
+numero_valido = false
+Mientras numero_valido = false
+	Escribe "Ingresa un número:"
+	Lee numero
+	Si numero es un numero
+		numero_valido = true
+	Si no
+		numero_valido = false
+		Escribe "Por favor, ingresa un número."
+Si numero % 2 == 0
+	Escribe "El numero " + numero "es par."
+Si numero % 2 != 0
+	Escribe " El numero + numero " es impar."
+Fin

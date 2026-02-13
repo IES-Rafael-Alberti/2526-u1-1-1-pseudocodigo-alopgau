@@ -1,0 +1,11 @@
+Inicio
+precio = 3,49
+Escribe "Introduce el número de barras no frescas (60% descuento) a comprar:"
+Lee num
+precio_no_descuento = precio * num
+precio_descuento = (precio * 0,6) * num
+descuento_total = precio_no_descuento - precio_descuento
+Escribe "Hubiera costado: " + precio_no_descuento
+Escribe "Cuesta: " + precio_descuento
+Escribe "En total, has ahorrado: " + descuento_total
+Fin

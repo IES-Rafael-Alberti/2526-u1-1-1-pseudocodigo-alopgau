@@ -1,0 +1,17 @@
+// Suma de los n primeros enteros de esta formula, n(n+1)/2
+Inicio
+numero_valido = false
+ Mientras numero_valido == false 
+	Escribe "Introduce hasta que numero quieres aplicar la fórmula"
+	Lee numero
+	Si numero <= 0 
+		Escribe "Por favor, introduce un numero valido"
+		numero_valido = false
+	Si numero > 0 
+		numero_valido = true
+
+Para i en (1, numero)
+	resultado = i(i+1)/2
+	resultado = resultado + resultado
+Escribe "El resultado es " + resultado"
+Fin

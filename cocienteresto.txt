@@ -1,0 +1,8 @@
+Inicio
+Escribe "Introduce el 1º número:"
+Lee num1
+Escribe "Introduce el 2º número:"
+Lee num2
+Escribe "El cociente es " + num1/num2
+Escribe "El resto es " + num1 % num2
+Fin

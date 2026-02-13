@@ -1,0 +1,14 @@
+Inicio
+Escribe "Introduce el 1º número:"
+Lee num1
+Escribe "Introduce el 2º número:"
+Lee num2
+Escribe "Introduce el 3º número:"
+Lee num3
+Escribe "El resultado de la suma es " + (num1+num2+num3)
+Fin
+
+
+
+
+

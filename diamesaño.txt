@@ -1,0 +1,8 @@
+Inicio
+Escribe "Introduce tu fecha de nacimiento: (dd/mm/aaaa)"
+Lee fecha
+// Asumo función subcadena
+Escribe "Dia:" + subcadena(1,2)
+Escribe "Mes:" + subcadena(4,5)
+Escribe "Año:" + subcadena(7,10)
+Fin

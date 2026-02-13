@@ -1,0 +1,5 @@
+Inicio
+Escribe "Ingresa tu nombre:"
+Lee nombre
+Escribe "Hola, " + nombre
+Fin

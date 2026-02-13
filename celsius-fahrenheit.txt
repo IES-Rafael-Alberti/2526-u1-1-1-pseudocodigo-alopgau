@@ -1,0 +1,8 @@
+
+// ºF =(ºC*9/5)+32
+
+Inicio
+Escribe "Introduce la temperatura en celsius:"
+Lee celsius
+Escribe "El equivalente en ºF es " + (celsius*(9/5))+32
+Fin

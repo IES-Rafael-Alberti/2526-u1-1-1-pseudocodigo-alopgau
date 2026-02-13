@@ -1,0 +1,9 @@
+Inicio
+Escribe "Introduce tu nombre:"
+Lee nombre
+Escribe "Introduce cuantas veces quieres que lo repita":
+Lee rep
+Para i en (1,rep)
+	Escribe nombre
+Fin
+

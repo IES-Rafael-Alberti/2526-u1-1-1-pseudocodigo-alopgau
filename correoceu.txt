@@ -1,0 +1,12 @@
+Inicio
+Escribe "Introduce un correo:"
+Lee correo
+// Asumo funcion subcadena
+// Asumo funcion len
+Para i en (1,len(correo))
+	caracter = subcadena(i,i)
+	Si caracter == "@"
+		Lee caracter y reemplazar a partir de dicha subcadena por ceu.es
+		Salir del bucle
+Escribe "Tu correo de ceu.es:" + correo mod
+Fin

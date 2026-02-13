@@ -1,0 +1,6 @@
+Inicio
+Escribe "Introduce un número de telefono (+34-número-extension)"
+Lee numero
+// Asumo uso de una función subcadena o similar
+Escribe "Tu número sin el prefijo es: + numero.subcadena(5,13) //  número + prefijo +  guiones = 13 caracteres 
+Fin 

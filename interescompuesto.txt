@@ -1,0 +1,7 @@
+Inicio
+Escribe "Introduce tu capital inicial:"
+Lee capital
+Para i en (1,3)
+	capital = capital + (capital*0,04)
+	Escribe "Año " + i + ": " + capital
+Fin 
